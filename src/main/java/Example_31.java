@@ -12,11 +12,16 @@ public class Example_31 {
         while (n > 0) {
             int rem = n % 10;
 
-            n = n / 10;
+
             sum = sum + rem * rem * rem;
+            n = n / 10;
 
         }
-
+if (n==sum){
+    System.out.println("augumented ");
+}else {
+    System.out.println("non");
+}
         System.out.println(sum);
 
     }
