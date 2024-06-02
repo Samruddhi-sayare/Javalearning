@@ -6,7 +6,7 @@ public class FirstLastPosition {
         int x = 8;
         findFirstAndLast(arr, x);
     }
-    public static void findFirstAndLast(int arr[], int x)
+     static void findFirstAndLast(int arr[], int x)
 
     {
         int n = arr.length;

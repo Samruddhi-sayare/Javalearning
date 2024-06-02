@@ -1,4 +1,5 @@
 public class FloorSearch {
+//    greater element in array smaller or equal == target
     public static void main(String[] args) {
         int[] arr= {2,3,4,5,6,7,10,26};
         int target = 9;
