@@ -1,6 +1,6 @@
 public class Palidrome {
     public static void main(String[] args) {
-         palidro(3526);
+         palidro(12344321);
 //        System.out.println(ans);
     }
     //palindrome number = 22 , 151 , 34543 ,etc
@@ -14,8 +14,6 @@ public class Palidrome {
             sum = sum*10+rem; // 1 , // 10 + 4 = 14,
             num = num / 10; //   141 / 10 =  14.1 ,
         }
-//        System.out.println(sum);
-//        System.out.println();
         if (sum == orignal){
             System.out.println("palindrome number");
         }else {
