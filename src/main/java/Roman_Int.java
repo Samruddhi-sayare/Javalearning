@@ -1,7 +1,7 @@
 public class Roman_Int {
     public static void main(String[] args) {
         Roman_Int sc = new Roman_Int();
-        String str = "II";
+        String str = "XX";
         System.out.println(sc.romantodec(str));
     }
     int value(char r){
